@@ -1,0 +1,12 @@
+[submodule "CupClient-NLW"]
+	path = CupClient-NLW
+	url = https://github.com/GeorgePaulino/CupClient-NLW
+[submodule "client"]
+	path = client
+	url = ./client
+[submodule "server"]
+	path = server
+	url = ./server
+[submodule "CupServer-NLW"]
+	path = CupServer-NLW
+	url = https://github.com/GeorgePaulino/CupServer-NLW
