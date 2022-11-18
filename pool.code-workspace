@@ -1,0 +1,38 @@
+{
+	"folders": [
+		{
+			"path": "server"
+		},
+		{
+			"path": "client"
+		}
+	],
+	"settings": {},
+	"launch": {
+		"version": "0.2.0",
+		"configurations": [
+			{
+				"name": "Launch Server",
+				"type": "node",
+				"request": "launch",
+				"cwd": "${workspaceRoot:server}",
+				"runtimeExecutable": "npm",
+				"runtimeArgs": [
+					"run-script",
+					"dev"
+				]
+			},
+			{
+				"name": "Launch Client Web",
+				"type": "node",
+				"request": "launch",
+				"cwd": "${workspaceRoot:client}/web",
+				"runtimeExecutable": "npm",
+				"runtimeArgs": [
+					"run-script",
+					"dev"
+				]
+			},
+		]
+	}
+}
