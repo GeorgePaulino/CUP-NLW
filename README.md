@@ -21,8 +21,6 @@ Project NLW Copa of the RocketSeat Group
 <code> npx prisma generate </code> <br/>
 <code> npx prisma studio </code> <br/>
 
-<br/>
-
 # Setup do Front End
 ## Framework ReactJS Based
 <code> npx create-next-app@latest </code>
