@@ -1,10 +1,10 @@
 {
 	"folders": [
 		{
-			"path": "server"
+			"path": "CupServer-NLW"
 		},
 		{
-			"path": "client"
+			"path": "CupClient-NLW"
 		}
 	],
 	"settings": {},
@@ -15,7 +15,7 @@
 				"name": "Launch Server",
 				"type": "node",
 				"request": "launch",
-				"cwd": "${workspaceRoot:server}",
+				"cwd": "${workspaceRoot:CupServer-NLW}",
 				"runtimeExecutable": "npm",
 				"runtimeArgs": [
 					"run-script",
@@ -26,7 +26,7 @@
 				"name": "Launch Client Web",
 				"type": "node",
 				"request": "launch",
-				"cwd": "${workspaceRoot:client}/web",
+				"cwd": "${workspaceRoot:CupClient-NLW}/web",
 				"runtimeExecutable": "npm",
 				"runtimeArgs": [
 					"run-script",
