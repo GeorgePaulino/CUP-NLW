@@ -5,8 +5,8 @@ Project NLW Copa of the RocketSeat Group
 
 ## TypesScript
 <code>
-npm i typescript -D <br>
-npm i tsx -D <br>
+npm i typescript -D <br/>
+npm i tsx -D <br/>
 npx tsc --init
 </code>
 
@@ -15,17 +15,17 @@ npx tsc --init
 
 ## Database
 <code> 
-npm i prisma -D <br>
-npm i @prisma/client <br>
-npm i prisma-erd-generator @mermaid-js/mermaid-cli -D <br>
-npm i @fastify/cors <br>
-npx prisma init --datasource-provider SQLite <br>
-npx prisma migrate {file} <br>
-npx prisma generate <br>
-npx prisma studio <br>
+npm i prisma -D <br/>
+npm i @prisma/client <br/>
+npm i prisma-erd-generator @mermaid-js/mermaid-cli -D <br/>
+npm i @fastify/cors <br/>
+npx prisma init --datasource-provider SQLite <br/>
+npx prisma migrate {file} <br/>
+npx prisma generate <br/>
+npx prisma studio <br/>
 </code>
 
-<br>
+<br/>
 
 # Setup do Front End
 ## Framework ReactJS Based
