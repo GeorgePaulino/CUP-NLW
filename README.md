@@ -14,16 +14,14 @@ npx tsc --init
 <code>npm i fastify</code>
 
 ## Database
-<code> 
-npm i prisma -D <br/>
-npm i @prisma/client <br/>
+<code> npm i prisma  -D </code> <br/>
+<code> npm i @prisma/client </code> <br/>
 npm i prisma-erd-generator @mermaid-js/mermaid-cli -D <br/>
 npm i @fastify/cors <br/>
 npx prisma init --datasource-provider SQLite <br/>
 npx prisma migrate {file} <br/>
 npx prisma generate <br/>
 npx prisma studio <br/>
-</code>
 
 <br/>
 
