@@ -4,29 +4,25 @@ Project NLW Copa of the RocketSeat Group
 # Setup do Back End
 
 ## TypesScript
-<code>
-npm i typescript -D <br/>
-npm i tsx -D <br/>
-npx tsc --init
-</code>
+<code> npm i typescript -D </code> <br/>
+<code> npm i tsx -D </code> <br/>
+<code> npx tsc --init </code>
 
 ## Framework NodeJS
-<code>npm i fastify</code>
+<code> npm i fastify </code>
 
 ## Database
 <code> npm i prisma  -D </code> <br/>
 <code> npm i @prisma/client </code> <br/>
-npm i prisma-erd-generator @mermaid-js/mermaid-cli -D <br/>
-npm i @fastify/cors <br/>
-npx prisma init --datasource-provider SQLite <br/>
-npx prisma migrate {file} <br/>
-npx prisma generate <br/>
-npx prisma studio <br/>
+<code> npm i prisma-erd-generator @mermaid-js/mermaid-cli -D </code> <br/>
+<code> npm i @fastify/cors </code> <br/>
+<code> npx prisma init --datasource-provider SQLite </code> <br/>
+<code> npx prisma migrate {file} </code> <br/>
+<code> npx prisma generate </code> <br/>
+<code> npx prisma studio </code> <br/>
 
 <br/>
 
 # Setup do Front End
 ## Framework ReactJS Based
-<code>
-npx create-next-app@latest
-</code>
+<code> npx create-next-app@latest </code>
